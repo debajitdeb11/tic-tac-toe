@@ -1,0 +1,31 @@
+body {
+	background-color: #000000;
+}
+
+.board-footer {
+	background-color: #000000;
+	border: 0;
+	margin-top: 30px;
+	margin-bottom: 0;
+	padding: 0px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: blueviolet;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.box {
+	width: auto;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icon {
+	font-size: 35px;
+	color: #ffffff;
+}
